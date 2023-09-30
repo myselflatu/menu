@@ -243,6 +243,14 @@ Menu
   padding-top: 1rem;
 }
 
+@media screen and (min-width: 400px) {
+	.btn-container {
+		flex-wrap: wrap;
+	}
+	.filter-btn {
+		margin-top: 1rem;
+	}
+}
 @media screen and (min-width: 768px) {
   .menu-item {
     grid-template-columns: 225px 1fr;
